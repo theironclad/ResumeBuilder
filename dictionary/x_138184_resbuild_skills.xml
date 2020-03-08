@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skills" max_length="40" name="x_138184_resbuild_skills" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Experience level" max_length="40" name="experience_level" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Skill" max_length="40" name="skill" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Years experience" max_length="40" name="years_experience" type="string"/>
+    </element>
+</database>

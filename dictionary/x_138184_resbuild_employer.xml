@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employer" max_length="40" name="x_138184_resbuild_employer" type="collection">
+        <element label="Current" max_length="40" name="current" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Employer" max_length="80" name="employer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="start_date" type="glide_date"/>
+    </element>
+</database>

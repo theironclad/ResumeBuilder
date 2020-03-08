@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Education" max_length="40" name="x_138184_resbuild_education" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Degree" max_length="80" name="degree" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End year" max_length="40" name="end_year" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Field of study" max_length="80" name="field_of_study" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="School" max_length="80" name="school" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start year" max_length="40" name="start_year" type="glide_date"/>
+    </element>
+</database>

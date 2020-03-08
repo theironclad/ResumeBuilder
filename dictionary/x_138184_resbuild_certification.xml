@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Certification" max_length="40" name="x_138184_resbuild_certification" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Authority" max_length="80" name="authority" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Certification name" max_length="80" name="certification_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Credential ID" max_length="80" name="credential_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Issue date" max_length="40" name="issue_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
